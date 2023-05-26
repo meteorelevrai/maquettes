@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lemadev | Contact</title>
+        <link rel="stylesheet" href="index.css" />
+        <link href="..\logo.png" rel="icon">
+        <script src="index.js"></script>
+        <script src="../tel.js"></script>
+        
+    </head>
+    <header>
+        <div class="align-div">
+          <h1 class="title">Maquette</h1>
+          <a onclick="menu_open();"><img src="../ico/menu.png" class="ico-menu-open-visi" draggable="false" id="menu_open"></a>
+        </div>
+    </header>
+    <body onload="index();">
+      <div class="menu-close" id="menu">
+        <a onclick="menu_close();"><img src="../ico/close.png" class="ico-menu-close" draggable="false"></a>
+        <h1>Menu :</h1>
+            <a href="">Lien 1</a>
+            <a href="">Lien 2</a>
+            <a href="">Lien 3</a>
+            <a href="">Lien 4</a>
+            <a href="">Lien 5</a>
+    </div>
+        <h1 class="contact-body">Nous contacter</h1>
+        <div class="div-deco">
+            <div class="container">
+                <form target="_blank" action="https://formsubmit.co/adressemail@gmail.com" method="POST" enctype="multipart/form-data">
+                  <div class="form-group">
+                    <div class="form-row">
+                      <div class="col">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_subject" value="Demande de contact">
+                        <input type="text" name="Nom & Prénom et/ou Pseudonyme" class="form-control bars-1" placeholder="Nom & Prénom et/ou Pseudonyme" required>
+                      </div>
+                      <div class="col">
+                        <input type="email" name="email" class="form-control bars-1" placeholder="Adresse Email" required>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <textarea placeholder="Votre Message" class="form-control bars-2" name="Message" rows="10" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-lg btn-dark btn-block submit-form">Envoyer la demande de contact</button>
+                </form>
+              </div>
+        </div>
+    </body>
+    <footer>
+        <div class="align-div">
+            <div class="site">
+                <h1>Le site :</h1>
+                <a href="">Accueil</a>
+                <a href="">Lien 1</a>
+                <a href="">Lien 2</a>
+                <a href="">Lien 3</a>
+                <a href="">Lien 4</a>
+                <a href="">Lien 5</a>
+            </div>
+            <div class="contact">
+                <h1>Contact :</h1>
+                <a href="mailto:">adressemail@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+</html>
